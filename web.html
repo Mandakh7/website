@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+ 
+<body>
+    
+    <div class="container">
+    <div class="navbar">
+        <img src="/images/nike1.jpg" alt="" class="logo">
+        
+        <nav>
+                <ul id="menuList">
+                    <li><a href="file:///C:/Users/Lenovo/Desktop/Loginuser/web.html">Home</a></li>
+                    <li><a href="file:///C:/Users/Lenovo/Desktop/Loginuser/men.html">Men</a></li>
+                    <li><a href="file:///C:/Users/Lenovo/Desktop/Loginuser/Woman.html">Woman</a></li>
+                    <li><a href="file:///C:/Users/Lenovo/Desktop/Loginuser/kids.html">Kids</a></li>
+                    
+                </ul>
+            </nav>
+            <img src="/images/micon.jpg" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>NIKE Jordan 1 <br>Fusion Red</h2>
+                <h3>Best Sneaker of NIKE</h3>
+                <p>(Special)</p>
+                <h4>$170</h4>
+                <button type="button">Buy Now </button>
+
+            </div>
+            <div class="col-2"><img src="/images/j1.jpg" alt="" class="sneaker"><div class="color-box"></div>
+            <div class="add-btn"><img src="/images/addbtn.jpg" alt=""><p><small>Add to Cart</small></p></div>
+            </div>
+        </div>
+        <div class="social-links">
+            <img src="/images/fb.jpg" alt="">
+            <img src="/images/ig1.jpg" alt="">
+            <img src="/images/twtr1.jpg " alt="">
+        </div>
+</div>
+
+<script>
+    
+          var menuList = document.getElementById("menuList");
+    menuList.style.maxHeight = "0px";
+    function togglemenu(){
+        if(menuList.style.maxHeight == "0px")
+        {
+                menuList.style.maxHeight == "130px";
+        }else{
+            menuList.style.maxHeight == "0px";
+    }
+    }
+</script>
+</body>
+</html>
